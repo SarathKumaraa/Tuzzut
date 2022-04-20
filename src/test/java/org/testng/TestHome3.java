@@ -44,6 +44,8 @@ public class TestHome3 extends BaseClass {
 		WatchDetailsPage wdp = new WatchDetailsPage();
 		System.out.println(wdp.getWatchProductName().getText());
 		
+		//New changes
+		
 		
 		String b = wdp.getWatchProductName().getText();
 		

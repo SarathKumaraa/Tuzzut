@@ -20,12 +20,17 @@ public class TestHome2 extends BaseClass {
 	private void test() {
 		getUrl("https://tuzzut.com/");
 		waitAll();
+		
+		//test wait
 
 		NewHomePage nhp = new NewHomePage();
 		sendkeys(nhp.getSearchBox(), "watches");
 		click(nhp.getSubmitBtn());
 		WatchPage wp = new WatchPage();
 		click(wp.getWatchFourthProduct());
+		
+		
+		//TestData
 		
 
 		WatchDetailsPage wdp = new WatchDetailsPage();
